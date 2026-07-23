@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Get the directory where this bash script is located (the bin/ folder)
+# Get the directory where this bash script is located
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
-# Define the path to main.py (one directory up from bin/)
+# Define the path to main.py
 PYTHON_SCRIPT="$SCRIPT_DIR/run_download.py"
 
 # Set default collection (Aerosols)

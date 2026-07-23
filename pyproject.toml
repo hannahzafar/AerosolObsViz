@@ -9,6 +9,7 @@ description = "Download aerosol observational data"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "earthaccess>=0.18.0",
     "eodag>=4.4.0",
     "numpy>=2.5.0",
     "pandas>=3.0.3",
