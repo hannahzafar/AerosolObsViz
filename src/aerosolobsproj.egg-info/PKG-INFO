@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: aerosolobsproj
+Version: 0.1.0
+Summary: Download aerosol observational data
+Requires-Python: >=3.14
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: eodag>=4.4.0
+Requires-Dist: numpy>=2.5.0
+Requires-Dist: pandas>=3.0.3
+Requires-Dist: requests>=2.34.2
+Requires-Dist: xarray>=2026.4.0
+Dynamic: license-file
+
+Develop a workflow to download aerosol observation data to be used in the SVS visualization from the following products:
+- TROPOMI data from the Sentinel 5P instrument via Copernicus Data Space Ecosystem (CDSE)

@@ -4,7 +4,7 @@
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 # Define the path to main.py (one directory up from bin/)
-PYTHON_SCRIPT="$SCRIPT_DIR/../main.py"
+PYTHON_SCRIPT="$SCRIPT_DIR/run_download.py"
 
 # Set default collection (Aerosols)
 COLLECTION=${3:-"S5P_L2_AER_AI"} 

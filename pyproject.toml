@@ -1,7 +1,11 @@
+[build-system]
+requires = ["uv_build>=0.10.0,<0.11.0"]
+build-backend = "uv_build"
+
 [project]
-name = "cdse-tropomi"
+name = "aerosolobsviz"
 version = "0.1.0"
-description = "Add your description here"
+description = "Download aerosol observational data"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Make log directory if it doesn't exist
+[ ! -d "logs/" ] && mkdir -p "logs/"
 # Create a unique job ID using the script's Process ID ($$)
 JOB_ID=$(date +"%Y%m%d_%H%M%S")
 LOG_FILE="logs/download_job_${JOB_ID}.log"

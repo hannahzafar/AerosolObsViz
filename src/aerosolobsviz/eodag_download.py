@@ -4,7 +4,7 @@ from eodag import setup_logging
 import os
 
 
-def main():
+def download_eodag():
     # parse inputs
     parser = argparse.ArgumentParser(
         description="Search Copernicus Data Space Ecosystem via EODAG."
@@ -99,4 +99,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    download_eodag()

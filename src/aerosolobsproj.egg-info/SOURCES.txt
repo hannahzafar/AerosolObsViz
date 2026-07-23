@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/aerosolobsproj.egg-info/PKG-INFO
+src/aerosolobsproj.egg-info/SOURCES.txt
+src/aerosolobsproj.egg-info/dependency_links.txt
+src/aerosolobsproj.egg-info/requires.txt
+src/aerosolobsproj.egg-info/top_level.txt
+src/aerosolobsviz/__init__.py
+src/aerosolobsviz/eodag_download.py
